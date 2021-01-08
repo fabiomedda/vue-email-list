@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+}
+
+.container{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-grow: 6;
+    flex-wrap: wrap;
+    
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg_yellow{
+    background-color: yellow;
+}
+
+.bg_green {
+    background-color: green;
+}

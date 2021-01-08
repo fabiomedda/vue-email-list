@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>vue griglia bonus</title>
+        <!-- Axios CDN -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!-- development version, includes helpful console warnings -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+
+        <div id="root">
+            <button @click="random">click</button>
+            <div class="container">
+                <div :class="num <= 5 ? 'bg_yellow' : 'bg_green' " class="box" v-for="num in numeriGriglia">
+                    <h1>{{num}}</h1>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
