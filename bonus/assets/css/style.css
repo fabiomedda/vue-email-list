@@ -1,14 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: grey;
+    background-color: black;
 }
 
 .container{
-    height: 600px;
     width: 600px;
     display: flex;
     flex-grow: 6;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 .box{
@@ -17,6 +21,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid black;
 }
 
 .bg_yellow{
